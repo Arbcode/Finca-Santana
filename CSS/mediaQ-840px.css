@@ -1,0 +1,85 @@
+@media (min-width:840px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header .container_nav {
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+header .container_nav li{
+
+    font-size: 10%;
+
+    margin: 2rem;
+    
+}
+
+header{
+    position: fixed;
+    
+}
+
+#section .container h1{
+
+    font-size: 5rem;
+    padding-bottom: 20px;
+}
+
+
+#somos .container{
+    display: flex;    
+    text-align: center;
+    
+    
+
+}
+
+
+#somos .texto p{
+    padding-top: 10px;
+}
+#somos .texto{
+    width: 50%;
+    text-align: initial;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#somos .somos_img{
+
+    background-image: url(/PAGINA1/imgs/img5.png.crdownload);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 100px;
+    margin: 50px;
+    /*Cambiar imagen*/
+
+}
+   
+#lugares .lugares_bloques{
+    display: flex;
+    
+    justify-content: center;
+   
+}
+
+#lugares .lugares_bloques p{
+    display: contents
+    ;
+
+
+
+}
+
+
+
+}

@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+h1{font-size: 3rem;}
+h2{font-size: 2rem;}
+p{font-size: 1.5rem;}
+li{font-size: 2rem;}
+ul {list-style: none;}
+
+button{
+    font-size: 2.1rem;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 2px 2px 2px #000;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    min-height: 4rem; ;
+}
+.container_logo{
+    padding: 10px 20px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 3rem;
+    
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+
+}
+
+.container_nav{
+    
+    text-align:center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      
+}
+
+
+.container_nav a{
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5rem;
+    margin: 10px;
+
+
+} 
+
+header a:hover{
+color: rgb(239, 18, 143);
+}
+
+#section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-image:   
+     url("/PAGINA1/imgs/pexels-francesco-ungaro-96444.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     color: white;
+}
+
+
+
+#somos .container{
+
+    text-align: center;
+    padding: 200px 12px;
+
+
+}
+
+#somos .container h2{
+    color: blueviolet;
+    font-size: 3rem;
+}
+
+#lugares{
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+ #lugares p{
+    display: none; 
+
+
+}
+
+
+
+#lugares .container{
+    text-align: center;
+    padding: 100px 0;
+}
+
+#lugares .items{
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+
+
+}
+
+.items:first-child{
+    background-image:url("/PAGINA1/imgs/pexels-markus-spiske-97047\ \(1\).jpg") ;
+    background-size: cover;
+     
+    background-repeat:no-repea;
+}
+
+.items:nth-child(2){
+    background-image: url(/PAGINA1/imgs/pexels-rodnae-productions-8034580.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+.items:nth-child(3){
+    background-image: url(/PAGINA1/imgs/discoteca.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#servicios .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#servicios li{
+    margin: 20px 0;
+    font-weight: bold;
+
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    flex-direction: column;
+    height: 80vh;
+    
+}
+
+.final h1{
+    padding: 20px;
+    font-size: 9vw;
+   
+}
+.final button{
+    font-size: 5vw;
+
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+   
+}
+
+footer .container{
+    height: 50px;
+    color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+
+
+
+
